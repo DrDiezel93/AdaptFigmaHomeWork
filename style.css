@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #FFF;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.conteiner {
+    max-width: 1600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    background: #222;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_conteiner {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_group1 {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_group2 {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo2 {
+    padding-top: 6px;
+}
+
+.section1 {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #F1E4E6;
+    display: flex;
+    gap: 60px;
+}
+
+.h1_text {
+    border-left: 12px #F16D7F solid;
+    padding-left: 16px;
+    margin-top: 290px;
+    margin-bottom: 380px;
+}
+
+.h1_1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.h2_1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.h2_2 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.new_conteiner {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.new_navigation {
+    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.new_navigation2 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.h4_text {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.h3_text {
+    color: #F16D7F;
+    font-family: Lato;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card_1 {
+    width: 360px;
+    height: 260px;
+    background-image: url(../img/women.png);
+}
+
+.card_2 {
+    width: 360px;
+    height: 260px;
+    background-image: url(../img/men2.png);
+}
+
+.card_3 {
+    width: 360px;
+    height: 260px;
+    background-image: url(../img/men3.png);
+}
+
+.card_4 {
+    width: 1140px;
+    height: 180px;
+    background-image: url(../img/image777.png);
+}
+
+.card_collor {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 22, 22, 0.70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_collor_4 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 22, 22, 0.70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2_text_new {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.p_text_new {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.new_navigation3 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.new_text {
+    padding: 24px 16px;
+    background-color: #F8F8F8;
+}
+
+.new_h3 {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+.new_p {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 305px;
+    padding-bottom: 16px;
+}
+
+.new_h4 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.flex_button {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #FFFFFF;
+    border: 1px solid #FF6A6A;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 40px;
+    cursor: pointer;
+}
