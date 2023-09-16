@@ -351,6 +351,85 @@ img {
         margin-top: 33px;
         margin-bottom: 70px;
     }
+}
 
+@media (max-width: 767px) {
+    .conteiner {
+        max-width: 375px;
+    }
 
+    .logo_conteiner {
+        max-width: 343px;
+    }
+
+    .svg_none {
+        display: none;
+    }
+
+    .logo_group2 {
+        flex-direction: row-reverse;
+    }
+
+    .section1 {
+        padding-top: 148px;
+        padding-bottom: 148px;
+        max-width: 375px;
+    }
+
+    .men_flex {
+        display: none;
+    }
+
+    .nav_sec1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .h1_text {
+        width: 250px;
+    }
+
+    .h1_1 {
+        font-size: 38px;
+    }
+
+    .h2_1 {
+        font-size: 20px;
+    }
+
+    .h2_2 {
+        font-size: 20px;
+    }
+
+    .new_conteiner_mob {
+        max-width: 343px;
+    }
+
+    .card_4 {
+        height: 111px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .h2_text_new {
+        padding-top: 64px;
+        padding-bottom: 3px;
+    }
+
+    .p_text_new {
+        padding-bottom: 65px;
+    }
+
+    .new_conteiner {
+        max-width: 360px;
+    }
+
+    .new_navigation3 {
+        row-gap: 17px;
+    }
+
+    .flex_button {
+        margin-top: 41px;
+        margin-bottom: 85px;
+    }
 }
