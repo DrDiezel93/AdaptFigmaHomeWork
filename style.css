@@ -56,15 +56,22 @@ img {
     max-width: 1600px;
     margin: 0 auto;
     background-color: #F1E4E6;
+}
+
+.nav_sec1 {
     display: flex;
     gap: 60px;
 }
 
+.h1_flex {
+    display: flex;
+    align-items: center;
+}
+
 .h1_text {
-    border-left: 12px #F16D7F solid;
     padding-left: 16px;
-    margin-top: 290px;
-    margin-bottom: 380px;
+    border-left: 12px #F16D7F solid;
+    max-width: 400px;
 }
 
 .h1_1 {
@@ -102,8 +109,7 @@ img {
 .new_navigation {
     padding-top: 65px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -184,7 +190,7 @@ img {
     line-height: normal;
     text-align: center;
     padding-top: 100px;
-    padding-bottom: 10px;
+    padding-bottom: 6px;
 }
 
 .p_text_new {
@@ -200,9 +206,9 @@ img {
 
 .new_navigation3 {
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding-bottom: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
 }
 
 .new_text {
@@ -241,7 +247,7 @@ img {
 }
 
 .flex_button {
-    margin-top: 20px;
+    margin-top: 48px;
     margin-bottom: 60px;
     display: flex;
     justify-content: center;
@@ -256,4 +262,95 @@ img {
     font-weight: 400;
     padding: 15px 40px;
     cursor: pointer;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .conteiner {
+        max-width: 1024px;
+    }
+
+    .logo_conteiner {
+        max-width: 700px;
+    }
+
+    .section1 {
+        max-width: 1024px;
+    }
+
+    .new_conteiner {
+        max-width: 734px;
+    }
+
+    .h1_text {
+        width: 300px;
+        padding-right: 34px;
+    }
+
+    .h1_1 {
+        font-size: 44px;
+    }
+
+    .h2_1 {
+        font-size: 24px;
+    }
+
+    .h2_2 {
+        font-size: 24px;
+    }
+
+    .nav_sec1 {
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+    .new_navigation {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+
+    .card_1 {
+        height: 168px;
+        background-size: 100% 100%;
+    }
+
+    .card_2 {
+        height: 168px;
+        background-size: 100% 100%;
+    }
+
+    .card_3 {
+        height: 168px;
+        background-size: 100% 100%;
+    }
+
+    .card_4 {
+        height: 116px;
+        background-size: 100% 100%;
+    }
+
+    .new_navigation2 {
+        padding-top: 20px;
+    }
+
+    .h2_text_new {
+        padding-top: 110px;
+        padding-bottom: 3px;
+    }
+
+    .p_text_new {
+        padding-bottom: 73px;
+    }
+
+    .new_navigation3 {
+        row-gap: 15px;
+    }
+
+    .flex_button {
+        margin-top: 33px;
+        margin-bottom: 70px;
+    }
+
+
 }
