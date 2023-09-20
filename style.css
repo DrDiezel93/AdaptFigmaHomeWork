@@ -42,11 +42,22 @@ img {
 }
 
 .logo_group2 {
-    width: 160px;
+    max-width: 160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+}
+
+.ul_logo_group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+}
+
+.li_marker_none {
+    list-style-type: none;
 }
 
 .logo2 {
@@ -79,11 +90,79 @@ img {
     max-width: 1600px;
     margin: 0 auto;
     background-color: #F1E4E6;
+    position: relative;
 }
 
 .nav_sec1 {
     display: flex;
     gap: 60px;
+}
+
+.menu {
+    width: 232px;
+    background-color: #FFF;
+    position: absolute;
+    right: 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+.h3_menu {
+    color: #000;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 32px;
+    padding-left: 33px;
+}
+
+.h4_menu {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 24px;
+    padding-left: 32px;
+}
+
+.p_menu {
+    color: #6F6E6E;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 12px;
+    padding-left: 54px;
+}
+
+.p_menu2 {
+    color: #6F6E6E;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 12px;
+    padding-left: 54px;
+    padding-bottom: 32px;
+}
+
+.h4_menu2 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+    padding-left: 32px;
 }
 
 .h1_flex {
@@ -657,6 +736,10 @@ footer {
         max-width: 1024px;
     }
 
+    .menu {
+        display: none;
+    }
+
     .new_conteiner {
         max-width: 734px;
     }
@@ -794,14 +877,22 @@ footer {
         display: none;
     }
 
-    .logo_group2 {
+    .ul_logo_group {
         flex-direction: row-reverse;
+    }
+
+    .numb {
+        display: none;
     }
 
     .section1 {
         padding-top: 148px;
         padding-bottom: 148px;
         max-width: 375px;
+    }
+
+    .menu {
+        display: none;
     }
 
     .men_flex {
